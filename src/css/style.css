@@ -1,0 +1,155 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  list-style: none;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card{
+  background-color: orange;
+  height: 510px;
+  width: 365px;
+  padding: 45px 60px 60px 65px;
+  border-radius: 30px;
+}
+
+.card h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  color: hsl(0, 0%, 100%, 0.85);
+  margin-bottom: 40px;
+}
+
+.circle h1{
+  font-size: 60px;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: 800;
+}
+
+.circle p{
+  font-size: 15px;
+  color: hsl(0, 0%, 100%, 0.85);
+}
+
+.circle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  background-color: rgba(196, 23, 23, 0.769);
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 45px;
+}
+
+.card h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.card .pontuacao{
+  color: hsl(0, 0%, 100%, 0.85);
+}
+
+.summary{
+  height: 510px;
+  width: 365px;
+  border-radius: 30px;
+  margin-left: 45px;
+  margin-top: 95px;
+}
+
+.summary h4{
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+
+.list{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.list .nome{
+  margin-left: 15px;
+}
+
+.list .nome.um{
+  color: red;
+  font-weight: 600;
+}
+
+.list .nome.dois{
+  color: #f5c83f;
+  font-weight: 600;
+}
+
+.list .nome.tres{
+  color: aqua;
+  font-weight: 600;
+}
+
+.list .nome.quatro{
+  color: blue;
+  font-weight: 600;
+}
+
+.list .numero{
+  margin-left: 85px;
+  font-weight: 600;
+}
+
+.list .numero1{
+  margin-left: 78px;
+  font-weight: 600;
+}
+
+.list .numero2{
+  margin-left: 67px;
+  font-weight: 600;
+}
+
+.list .span2{
+  color: gray;
+}
+
+.list.um{
+  background-color: beige;
+  width: max-content;
+  border-radius: 5px;
+}
+
+.list.quatro{
+  background-color: beige;
+  width: max-content;
+  border-radius: 5px;
+}
+
+button{
+  width: 65%;
+  background-color: rgb(228, 151, 6);
+  border-radius: 20px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+
